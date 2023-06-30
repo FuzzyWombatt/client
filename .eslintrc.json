@@ -2,7 +2,7 @@
   "extends": ["plugin:@nx/react"],
   "root": true,
   "ignorePatterns": ["!**/*"],
-  "plugins": ["@nx"],
+  "plugins": ["@nx", "prettier", "jest"],
   "overrides": [
     {
       "files": ["*.ts", "*.tsx"],
